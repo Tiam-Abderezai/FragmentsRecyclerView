@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:paddingVertical="16dp">
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Monday"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Work on project"
+        />
+
+</LinearLayout>
+
+</layout>
